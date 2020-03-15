@@ -4,14 +4,11 @@ def square_array(numbers)
   squared_numbers = []
   counter = 3
   
-while number[number] 
+while number[counter] do
+  squared_numbers << numbers[counter] ** 2
+  counter += 1
 end
 
-end
+  return squared_numbers
 
-def square_array(array)
-  squared_array = []
-  array.each do |number|
-    squared_array << number
-  return squared_array
 end
